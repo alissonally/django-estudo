@@ -1,0 +1,9 @@
+{% extends 'layout/app.html' %} 
+
+{% block title %} {{post.post_title}} {% endblock %}
+{% block conteudo %}
+	<h2>{{post.post_title}}</h2>
+	<p>
+		{{post.post_content}}
+	</p>
+{% endblock %}
